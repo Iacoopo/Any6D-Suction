@@ -1,0 +1,49 @@
+{
+  "common": {
+    "workdir": "/home/iacopo/cv_final/Any6D",
+    "wrapper": "/home/iacopo/cv_final/Any6D/run_any6d_blackwell_env.sh",
+    "runner": "run_isaac_any6d_query.py",
+    "ycb_model_path": "/home/iacopo/cv_final/datasets/ho3d/YCB_Video_Models",
+    "dataset_root_base": "/mnt/c/isaac-sim/any6d",
+    "mask_type": "visible",
+    "gt_camera_convention": "cv",
+    "gt_pose_field": "T_C_O",
+    "object_frame_corrections_json": "/home/iacopo/cv_final/Any6D/object_frame_corrections.validated.json"
+  },
+  "experiments": {
+    "analysis_003_viewpoint": { "factor": "viewpoint", "object_name": "003_cracker_box", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_003" },
+    "analysis_003_distance": { "factor": "distance", "object_name": "003_cracker_box", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_003" },
+    "analysis_003_lighting": { "factor": "lighting", "object_name": "003_cracker_box", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_003" },
+    "analysis_003_clutter": { "factor": "clutter", "object_name": "003_cracker_box", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_003" },
+    "analysis_003_occlusion": { "factor": "occlusion", "object_name": "003_cracker_box", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_003" },
+    "analysis_003_v_l_c_occlusion": { "factor": "viewpoint_lighting_clutter_occlusion", "object_name": "003_cracker_box", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_003" },
+
+    "analysis_005_viewpoint": { "factor": "viewpoint", "object_name": "005_tomato_soup_can", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_005" },
+    "analysis_005_distance": { "factor": "distance", "object_name": "005_tomato_soup_can", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_005" },
+    "analysis_005_lighting": { "factor": "lighting", "object_name": "005_tomato_soup_can", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_005" },
+    "analysis_005_clutter": { "factor": "clutter", "object_name": "005_tomato_soup_can", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_005" },
+    "analysis_005_occlusion": { "factor": "occlusion", "object_name": "005_tomato_soup_can", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_005" },
+    "analysis_005_v_l_c_occlusion": { "factor": "viewpoint_lighting_clutter_occlusion", "object_name": "005_tomato_soup_can", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_005" },
+
+    "analysis_006_viewpoint": { "factor": "viewpoint", "object_name": "006_mustard_bottle", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_006" },
+    "analysis_006_distance": { "factor": "distance", "object_name": "006_mustard_bottle", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_006" },
+    "analysis_006_lighting": { "factor": "lighting", "object_name": "006_mustard_bottle", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_006" },
+    "analysis_006_clutter": { "factor": "clutter", "object_name": "006_mustard_bottle", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_006" },
+    "analysis_006_occlusion": { "factor": "occlusion", "object_name": "006_mustard_bottle", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_006" },
+    "analysis_006_v_l_c_occlusion": { "factor": "viewpoint_lighting_clutter_occlusion", "object_name": "006_mustard_bottle", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_006" },
+    
+    "analysis_010_viewpoint": { "factor": "viewpoint", "object_name": "010_potted_meat_can", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_010" },
+    "analysis_010_distance": { "factor": "distance", "object_name": "010_potted_meat_can", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_010" },
+    "analysis_010_lighting": { "factor": "lighting", "object_name": "010_potted_meat_can", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_010" },
+    "analysis_010_clutter": { "factor": "clutter", "object_name": "010_potted_meat_can", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_010" },
+    "analysis_010_occlusion": { "factor": "occlusion", "object_name": "010_potted_meat_can", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_010" },
+    "analysis_010_v_l_c_occlusion": { "factor": "viewpoint_lighting_clutter_occlusion", "object_name": "010_potted_meat_can", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_010" },
+
+    "analysis_021_viewpoint": { "factor": "viewpoint", "object_name": "021_bleach_cleanser", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_021" },
+    "analysis_021_distance": { "factor": "distance", "object_name": "021_bleach_cleanser", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_021" },
+    "analysis_021_lighting": { "factor": "lighting", "object_name": "021_bleach_cleanser", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_021" },
+    "analysis_021_clutter": { "factor": "clutter", "object_name": "021_bleach_cleanser", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_021" },
+    "analysis_021_occlusion": { "factor": "occlusion", "object_name": "021_bleach_cleanser", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_021" },
+    "analysis_021_v_l_c_occlusion": { "factor": "viewpoint_lighting_clutter_occlusion", "object_name": "021_bleach_cleanser", "dataset_root": "/mnt/c/isaac-sim/any6d/_out_analysis_021" }
+  }
+}

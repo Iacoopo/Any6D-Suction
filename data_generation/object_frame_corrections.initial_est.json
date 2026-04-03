@@ -1,0 +1,25 @@
+{
+  "_comment": "Initial object-frame correction estimates for runner/post-processing. These map Isaac object frame -> canonical YCB/Any6D frame. Estimated from synthetic samples plus center_mesh reference geometry; refine empirically with evaluation if needed.",
+  "003_cracker_box": {
+    "source": "initial_icp_estimate_from_center_mesh",
+    "T_O_isaac_to_ycb": [
+      [0.931756, -0.032538, -0.361625, -0.011733],
+      [-0.003069, 0.995235, -0.097454, -0.037489],
+      [0.363072, 0.091913, 0.927216, -0.022537],
+      [0.0, 0.0, 0.0, 1.0]
+    ]
+  },
+  "006_mustard_bottle": {
+    "source": "initial_icp_estimate_from_center_mesh",
+    "T_O_isaac_to_ycb": [
+      [0.023733, -0.999660, 0.010821, 0.024034],
+      [-0.984938, -0.025235, -0.171059, 0.013589],
+      [0.171274, -0.006598, -0.985201, 0.019931],
+      [0.0, 0.0, 0.0, 1.0]
+    ]
+  },
+  "010_potted_meat_can": {
+    "source": "pending",
+    "T_O_isaac_to_ycb": null
+  }
+}
